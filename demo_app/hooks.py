@@ -87,11 +87,11 @@ app_license = "MIT"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
+override_doctype_class = {
 #	"ToDo": "custom_app.overrides.CustomToDo"
-# "Stock Entry": "demo_app.overrides.gabishistockentry"
+"Stock Entry": "demo_app.overrides.gabishistockentry"
 # "Student": "demo_app.overridesstudent.gabishistudent"
-# }
+}
 
 # Document Events
 # ---------------
