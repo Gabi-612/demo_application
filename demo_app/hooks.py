@@ -89,6 +89,8 @@ app_license = "MIT"
 
 # override_doctype_class = {
 #	"ToDo": "custom_app.overrides.CustomToDo"
+# "Stock Entry": "demo_app.overrides.gabishistockentry"
+# "Student": "demo_app.overridesstudent.gabishistudent"
 # }
 
 # Document Events
@@ -96,11 +98,14 @@ app_license = "MIT"
 # Hook on document methods and events
 
 # doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
+	# "*": {
+	# 	"on_update": "method",
+	# 	"on_cancel": "method",
+	# 	"on_trash": "method"
+	# },
+	# "Stock Entry": {
+	# 	"validate": "demo_app.validate.validate"
+# 	}
 # }
 
 # Scheduled Tasks
