@@ -22,7 +22,7 @@ frappe.ui.form.off("Stock Entry", "fg_completed_qty");
 frappe.ui.form.on('Stock Entry', {
 	fg_completed_qty: function(frm) {
 		
-		frappe.msgprint("Hello Gabishi")
+		// frappe.msgprint("Hello from Custom")
 
 	}
 });
